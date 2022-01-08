@@ -15,7 +15,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    background-color: #083e7a;
+    background-color: #066273;    
 }
 
 .mylogo{
@@ -28,11 +28,12 @@
     position: fixed;
     top: 30px;
     left: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
     /* text-decoration: underline; */
 }
 
 .navbar a{
-    background-color: #083e7a;
+    background-color: #066273;  
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -85,15 +86,15 @@
 
 @keyframes blinking {
     0%{
-        color: #0a51a1;
+        color: #066273;  
     }
 
     49%{
-        color: #0a51a1;
+        color: #066273; 
     }
 
     60%{
-        color: #0a51a1;
+        color: #066273; 
     }
 
     99%{
@@ -101,7 +102,7 @@
     }
     
     100%{
-        color: #0a51a1;
+        color: #066273;
     }
 }
 
@@ -195,7 +196,7 @@
     letter-spacing: 2px;
 }
 
-.myproj{
+/* .myproj{
     letter-spacing: 2px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -204,7 +205,7 @@
     text-align: center;
     padding-top: 50px;
     display: flex;
-}
+} */
 
 img{
     width: 100%;
@@ -292,7 +293,7 @@ img{
 /*---------------------TO TOP BUTTON-----------------*/
 
 .to-top{
-    background-color: #083e7a;
+    background-color: #066273;  
     position: fixed;
     bottom: 16px;
     right: 32px;
@@ -315,6 +316,3 @@ img{
     pointer-events: auto;
     opacity: 1;
 }
-
-
-
