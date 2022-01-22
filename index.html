@@ -4,149 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myPortfolio</title>
-    <script src="https://kit.fontawesome.com/b88254ee1a.js" crossorigin="anonymous"></script>
+    <title>Responsive nav</title>
     <link rel="stylesheet" href="style.css">
+        <!-- for font text -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https:kit.fontawesome.com/a076d05399.js"></script>
+        <!-- for auto typing -->
+        <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
 </head>
 <body>
-    <header>
-        <section id="about">
-            <h1></h1>
-        </section>
-        <div class="nav">
-            <div class="mylogo">BCN</div>
-        <nav class="navbar">
-            <a href="#projects" class="click">Projects</a>
-            <a href="#mycerts" class="click">certificates</a>
-            <a href="#about" class="click">About</a>
-    
-        </nav>   
-        </div>
-    </header>
+<div class="main-container">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <div class="logo">Bicen</div>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <div class="container-1">
+        <section id="about"><p id="simpleUsage" class="simpleUsage"></p></section>
 
-    <div class="hey">
-        
-        <!-- <p id="simpleUsage" class="simpleUsage"></p>
-        <script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>  
         <script>
             new TypeIt("#simpleUsage", {
-            strings: "Hi im Bicen.",
-            speed: 200,
-            waitUntilVisible: true,
-            }).go();
-            </script> -->
-            <div class="main">
-                <div class="text">Hi</div>
-                <ul class="option"> 
-                    <li><span>im Bicen.</span></li>
-                    <li><span>im Bicen.</span></li>
-                    <li><span>im Bicen.</span></li>
-                    <li><span>im Bicen.</span></li>
-                </ul>
-            </div>
-        
-            <div id="about" class="Aspiring" id="Aspiring">Aspiring to be a web developer.</div>
-        <!-- <script>
-            new TypeIt("#Aspiring", {
-            strings: "Aspiring as a web developer.",
+            strings: "Hi im Bicen John.",
             speed: 150,
             waitUntilVisible: true,
             }).go();
-            </script> -->
-        <br>
-        <div id="about" class="h3">Im 24 years old, residing in 1021 Anonas St. Camarin
-            caloocan city, <br> I graduated Bachelor of Science Information Technology <br>
-            in Colegio De Sta. Teresa De avila <br>
-            am also a very hardworking person, <br> 
-            I am patient and computer literate.</div>
-
-        <div class="downloadCon">
-            <a href="DumayagBicen.pdf" download class="downloadBtn">
-                Download Resume
-            </a>
-        </div>
+        </script>
     </div>
-
-    <div class="titlecon">
-        <div class="titlediv">
-            <section class="" id="projects">
-                <div>This is my projects</div>
-            </section>
-        </div>
+    <div class="container-2">
+            <div id="about" class="Aspiring" id="Aspiring">Aspiring to be a web developer.</div>
     </div>
-    <div class="projcon">
-    <div class="container">
-
-        <div class="item pro1">
-        <img src="webdesign.PNG" alt="">
-        </div> 
-
-        <div class="item">
-        <img src="todolistPic.PNG" alt="" >
-        </div> 
-
-        <div class="item">
-        <img src="calculatorPic.PNG" alt="">
-        </div>
-    </div>
-    </div>
-    
     <br>
-    
-    <div class="titlecontainer">
-    <div class="titlediv1">
-        <section id="mycerts"> 
-            <div>This is my certificates</div>
-        </section>
+    <div class="container-3">
+        <p class="about-me">Im 24 years old, residing in 1021 Anonas Street Camarin caloocan city
+            I graduated Bachelor of Science Information Technology
+            in Colegio De Sta. Teresa De avila am also a very hardworking person
+            I am patient and computer literate.
+        <br>
+        <br>
+            <b> Im a front end developer and web designer using HTML, CSS, jQuery and JavaScript 
+            and always on the lookout for exciting projects to work on.
+            </b>
+        </p>
     </div>
+        <br>
+    <div class="container-4">
+        <a href="DumayagBicen.pdf" download class="downloadBtn">Download Resume</a>
     </div>
-    
-    <div class="certcon">
-    <div class="container2">     
-            <!-- <div class="cert one"> -->
-            <img src="cen-html.jpg" alt="">
-            <!-- </div>  -->
-    
-            <!-- <div class="cert one"> -->
-            <img src="cen-css.jpg" alt="" > 
-            <!-- </div>  -->
-    
-            <!-- <div class="cert one"> -->
-            <img src="it-research-seminar.png" alt="">
-            <!-- </div> -->
-
-            <!-- <div class="cert"> -->
-                <img src="science club.png" alt="">
-            <!-- </div> -->
-
-            <!-- <div class="cert"> -->
-                <img src="jscert.png" alt="">
-            <!-- </div> -->
-
-            <!-- <div class="cert"> -->
-                <img src="jquery.jpg" alt="">
-            <!-- </div> -->
+</div>
+<section id="projects"><h1 class="title-1">This is my projects</h1></section>
+    <div class="container-5">
+        <div class="imgContainer">
+            <div class="div-1 imgbox">
+                <a href="Calculator/index.html"><img src="images/calculatorPic.PNG" alt="img"></a>
+            </div>
+            <div class="div-2 imgbox">
+                <img src="images/webdesign.PNG" alt="img">
+            </div>
+            <div class="div-3 imgbox">
+                <a href="To do List/index.html"><img src="images/todolistPic.PNG" alt="img"></a>
+            </div>
+        </div>
     </div>
+    <section id="certificates"><h1 class="title-1">This is my Certificates</h1></section>
+    <div class="container-6">
+        <div class="certCon">
+            <div class="div-4 certbox">
+                <a href="images/cen-css.jpg"><img src="images/cen-css.jpg" alt="img"></a>
+            </div>
+            <div class="div-5 certbox">
+                <a href="images/it-research-seminar.png"><img src="images/it-research-seminar.png" alt="img"></a>
+            </div>
+            <div class="div-6 certbox">
+                <a href="images/cen-html.jpg"><img src="images/cen-html.jpg" alt="img"></a>
+            </div>
+            <div class="div-7 certbox">
+                <a href="images/jscert.png"><img src="images/jscert.png" alt="img"></a>
+            </div>
+            <div class="div-8 certbox">
+                <a href="images/jquery.jpg"><img src="images/jquery.jpg" alt="img"></a>
+            </div>
+            <div class="div-7 certbox">
+                <a href="images/science club.png"><img src="images/science club.png" alt="img"></a>
+            </div>
+        </div>
     </div>
-    
-    <div class="footer">
-        <!-- <div class="forcon"> -->
+    <div class="container-7">
+        <div class="footer">
             <div class="box1 box"><a href="#">About me</a></div>
             <div class="box2 box"><a href="#">Careers</a></div>
             <div class="box3 box"><a href="#">Privacy Policy</a></div>
             <div class="box4 box"><a href="#">Terms of Service</a></div>
-        <!-- </div> -->
+        </div>
     </div>
-    <div class="box5 box">Copyright ©2021 Bicen John Dumayag</div>
-        
-    
+    <div class="container-8 box">Copyright ©2021 Bicen John C. Dumayag</div>   
     <a href="#" class="to-top">
         <i id="toTOP" class="fas fa-chevron-up"></i>
-    </a>
-
-    <script src="index.js" ></script>
+    </a>     
+    <script src="index.js"></script>
 </body>
 </html>
