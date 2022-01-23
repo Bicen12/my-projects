@@ -106,7 +106,7 @@ label #cancel{
       display: block;
   }
   ul{
-      padding-top: 200px;
+      /* padding-top: 200px; */
       position: fixed;
       width: 100%;
       height: 100vh;
@@ -150,9 +150,16 @@ label #cancel{
     justify-content: center;
 }
 
+.container-1 p{
+    /* float: right; */
+    /* padding-left: 550px; */
+}
+
 /* ___________auto typing animation___________ */
 
 .simpleUsage{
+
+    /* padding-right: 350px; */
     padding-top: 70px;
     font-size: 50px;
     color: #162125;
@@ -161,7 +168,7 @@ label #cancel{
 
 @media screen and (max-width: 500px){
     .simpleUsage{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -171,6 +178,8 @@ label #cancel{
     align-items: center;
     justify-content: center;
     font-size: 30px;
+    /* float: right; */
+    /* padding-left: 800px; */
 }
 
 /* ______________for blinking text_________________ */
@@ -206,7 +215,7 @@ label #cancel{
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 720px){
     .Aspiring{
         font-size: 20px;
     }
@@ -218,10 +227,43 @@ label #cancel{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     
 }
 
+.container-3 img{
+    border-radius: 50%;
+    /* margin-right: 70px; */
+    height: 80%;
+    width: 80%;
+    float: left;
+    left: 10px;
+    box-shadow: 0px 10px 8px grey;
+    /* border-style: inset; */
+    /* opacity: 0.70; */
+    /* z-index: -1; */
+}
+
+/* @media screen and (min-width: 600px) and (max-width: 900px){
+    .container-3 img{
+        height: 80%;
+        width: 80%;
+    }
+} */
+
+.gradpic-Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme-container{
+
+}
+
+
 .about-me{
+    padding-left: 50px;
     width: 800px;
     color: #162125;
     font-size: 30px;
@@ -230,8 +272,24 @@ label #cancel{
 
 @media screen and (max-width: 500px){
     .about-me{
-        font-size: 20px;
-        width: 300px;
+        font-size: 17px;
+        width: 200px;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    .container-3 img{
+        height: 100%;
+        width: 100%;
+        box-shadow: 0px 6px 7px grey;
+        border-radius: 50%;
+    }
+    .gradpic-Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        
     }
 }
 
@@ -264,7 +322,7 @@ label #cancel{
     background: gray;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 720px){
     .downloadBtn{
         font-size: 20px;
         width: 200px;
@@ -285,6 +343,7 @@ label #cancel{
 }
 
 .title-1{
+    padding-top: 100px;
     text-transform: uppercase;
    font-family: 'Poppins', sans-serif;
    text-align: center;
@@ -343,6 +402,8 @@ img{
     }
     .title-1{
         font-size: 20px;
+        padding-top: 350px;
+        padding-bottom: 100px;
     }
     .imgbox:hover{
         width: 270px;
@@ -460,7 +521,7 @@ img{
     justify-content: center;
     font-size: 32px;
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
     opacity: 0;
     pointer-events: none;
     transition: all .4s;
@@ -469,8 +530,7 @@ img{
 @media screen and (max-width: 720px){
     .to-top{
         right: 5px;
-        /* bottom: 16px;
-        right: 32px; */
+        bottom: 32px;
     }
 }
 
@@ -480,9 +540,9 @@ img{
     opacity: 1;
 }
 
-#toTOP{
+/* #toTOP{
     background: #c73237;
-}
+} */
 
 
 
